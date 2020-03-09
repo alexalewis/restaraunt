@@ -6,30 +6,34 @@
     <title>Restaraunt</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/screen.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <h1 class="sushi-house">Welcome to Sushi House!</h1>
-    <img src=./images/chef.jpg alt="image" height="400" width="500">
+    <img class="images" src=./images/chef.jpg alt="image" height="500"
+    width="900">
     <nav>
-      <a href="/contact.html">Contact</a><br />
-      <a href="/events.html">Upcoming Events</a>
+      <a class="navigation" href="/contact.html">Contact</a><br />
+      <a class="navigation" id="events" href="/events.html">Upcoming Events</a>
     </nav>
 
     <section>
-      <h3>About Us</h3>
+      <h3 class="headings">About Us</h3>
       <p>
         We are so excited to announce we just launched our St. Petersburg
         location in the Grand Central District. We are a modern day Sushi
         concept that is changing the way we think about Sushi and Sake pairings.
         Come in and find out what we are all about!
       </p>
-      <img src= ./images/gcd.png alt="image" height="300" width="300">
+      <img class="images" src= ./images/gcd.png alt="image" height="500"
+      width="700">
     </section>
 
     <section>
-      <h3>Type of Cuisine</h3>
-      <img src=./images/sushi.jpg alt="image" height="300" width="400" >
-      <ul>
+      <h3 class="headings">Type of Cuisine</h3>
+      <img class="images" src=./images/sushi.jpg alt="image" height="300"
+      width="400" >
+      <ul class="lists">
         <li>Sushi</li>
         <li>Sashimi</li>
         <li>Octopus</li>
@@ -37,23 +41,24 @@
     </section>
 
     <section>
-      <h3>Specials</h3>
-      <ul>
+      <h3 class="headings">Specials</h3>
+      <ul class="lists">
         <li>Sake Saturdays: Half off sake!</li>
-        <img src=./images/sake.jpg alt="image" height="300" width="400">
+        <img class="images" src=./images/sake.jpg alt="image" height="300"
+        width="400">
         <li>Tentacle Tuesdays: Buy one get one free Octopus entree!</li>
         <li>Fire Fridays: Try our all new smoked Sushi for free!</li>
       </ul>
     </section>
 
     <section>
-      <h3>Locations</h3>
+      <h3 class="headings">Locations</h3>
       <p>
-        Checkout our <a href="/contact.html">contact</a> page for more details
-        on how to get in touch with us!
+        Check out our<a id="nav" href="/contact.html">contact</a> page for more
+        details on how to get in touch with us!
       </p>
     </section>
 
-    <footer>Made with 💚 in St.Petersburg</footer>
+    <footer>Made with 💚 in St. Petersburg</footer>
   </body>
 </html>

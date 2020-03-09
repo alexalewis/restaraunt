@@ -1,0 +1,53 @@
+* {
+  margin-left: 20px;
+  background-color: ivory;
+}
+
+.sushi-house {
+  color: red;
+  text-align: center;
+}
+
+.navigation {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
+
+#nav {
+  color: red;
+  text-decoration: none;
+}
+
+.headings {
+  color: darkslategrey;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+  ;
+}
+
+a:hover {
+  color: darkslategrey;
+}
+
+.lists {
+  line-height: 40px;
+}
+
+p {
+  line-height: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.images {
+  margin-left: 200px;
+  padding: 20px;
+}
